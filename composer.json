@@ -1,0 +1,16 @@
+{
+  "name": "taggers-io/laravel-communicable-queue",
+  "description": "Laravel communicable queue, communicate by laravel queue between laravel or lumen projects.",
+  "keywords": ["laravel", "queue"],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "illuminate/bus": "^5.3",
+    "illuminate/contracts": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "TaggersIo\\LaravelCommunicableQueue\\": "src"
+    }
+  }
+}
